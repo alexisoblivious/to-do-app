@@ -1,0 +1,23 @@
+@import "../../Global.scss";
+
+
+.helpPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: $color-background-light;
+
+
+
+ 
+}  h1 {
+    color: $color-dark;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $color-dark;
+    margin-bottom: 10px;
+  }

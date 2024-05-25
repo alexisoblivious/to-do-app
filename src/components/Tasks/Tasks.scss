@@ -1,0 +1,47 @@
+@import '../../Global.scss';
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: $color-light-accent;
+    color: $color-dark;
+ 
+}
+h2{
+    font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: $color-dark; 
+}
+    .load-message { 
+        color: black;
+        text-align: center;
+        font-size: 1.2rem; 
+        margin-top: 20px;
+    }
+button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid $color-dark;
+    background: $color-dark;
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:active {
+        background: $color-accent;
+        border-color: $color-accent;
+    }
+
+    svg {
+        margin-right: 5px;
+    }
+}

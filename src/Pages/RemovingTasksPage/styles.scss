@@ -1,0 +1,21 @@
+@import '../../Global.scss';
+
+.RemovingTasksPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  
+    h1 {
+      color: $color-dark;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      color: $color-dark;
+      margin-bottom: 10px;
+    }
+  
+   
+  }

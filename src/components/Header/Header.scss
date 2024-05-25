@@ -1,0 +1,36 @@
+@import '../../Global.scss';
+
+
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 5px $color-dark; // Use dark color for the border
+    width: 100%;
+    background-color: $color-accent; // Use the main background color
+
+    .title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        align-items: flex-start;
+        padding-left: 10px;
+        color: $color-light;
+
+        svg {
+            margin-right: 10px;
+            height: 36px;
+            padding: 5px;
+        }
+    }
+
+    .author {
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: $color-light; // Use light color for the text
+    }
+}

@@ -1,0 +1,23 @@
+@import '../../Global.scss';
+
+.nestedNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid $color-dark;
+    background-color: $color-light;
+    margin: 5%;
+    .helpPages{
+                
+        a {
+            display:inline-block;
+            text-decoration: none;
+            color: $color-dark;
+            padding: 20px;
+        }
+    }
+   
+}

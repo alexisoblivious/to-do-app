@@ -1,0 +1,68 @@
+@import '../../../Global.scss';
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid $color-dark;
+    border-radius: 5px;
+    background-color: $color-light;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    color: $color-dark;
+
+    hr {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    div {
+        width: 100%;
+        color: $color-dark;
+    }
+    .status {
+        color: $color-dark;
+
+        .completed-text {
+            color: #00AA00;  // Green text for completed status
+        }
+    }
+
+    h3 {
+        font-weight: bold;
+            margin-bottom: 0.5rem;
+            display: block;
+            color: $color-dark;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+
+        button {
+            width: 48%;
+            font: inherit;
+            cursor: pointer;
+            padding: 0.5rem 1.5rem;
+            border: 1px solid $color-dark;
+            background: $color-dark;
+            color: $color-light;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+
+            &:hover,
+            &:active {
+                background: $color-accent;
+                border-color: $color-accent;
+            }
+            svg {
+                margin-right: 10px;
+            }
+        }
+    }
+}

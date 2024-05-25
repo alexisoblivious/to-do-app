@@ -1,0 +1,17 @@
+@import '../../Global.scss';
+
+.NotFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: $color-light-accent;
+
+   h1, p{
+    color: $color-dark;
+   } 
+}

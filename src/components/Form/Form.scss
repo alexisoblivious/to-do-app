@@ -1,0 +1,94 @@
+@import '../../Global.scss';
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid $color-dark;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: $color-light;
+    margin-top: 2rem;
+
+    @media (min-width: 600px) {
+        max-width: 600px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: $color-dark; // Dark color for text
+    }
+
+    .error {
+        color: red;
+    }
+    .form-control {
+        margin: 0.5rem 0;
+        width: 100%;
+
+        label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            display: block;
+            color: $color-dark;
+        }
+
+        input,
+        select {
+            font: inherit;
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid $color-dark;
+            width: 100%;
+            color: $color-accent;
+
+            &:focus {
+                outline: none;
+                background: #f4f4f4;
+            }
+        }
+        option {
+            color: $color-dark;
+        }
+    }
+
+    .form-actions {
+        text-align: right;
+        margin-top: 1rem;
+
+        button {
+            font: inherit;
+            cursor: pointer;
+            padding: 0.5rem 1.5rem;
+            border: 1px solid $color-dark;
+            background: $color-dark;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+
+            &:hover,
+            &:active {
+                background: $color-accent;
+                border-color: $color-accent;
+            }
+
+            svg {
+                margin-right: 5px;
+            }
+            
+        }
+        
+        .loading-message {
+            color: black; // Set the color to black
+            font-size: 0.9rem;
+            padding: 0.1rem;
+            text-align: left;
+        }
+    }
+}
