@@ -15,19 +15,7 @@ import{ getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyAcAZrPf9Jbfa3CPRM_tc_wkstQ7mpYwm8",
 
-  authDomain: "to-do-app-js4.firebaseapp.com",
-
-  projectId: "to-do-app-js4",
-
-  storageBucket: "to-do-app-js4.appspot.com",
-
-  messagingSenderId: "782009284613",
-
-  appId: "1:782009284613:web:c3b261fec4c27200e4046c",
-
-  measurementId: "G-ZN9FPGYMER"
 
 };
 
